@@ -1,0 +1,9 @@
+
+PHP MYSQL CRUD
+Inventory System
+
+1. PHP MyAdmin XAMPP
+2. MySQL (Create, Database, Tables)
+3. MYSQL Create Read Update Delete - Product
+4. Coding the Mark Up (HTML, CSS, Javascript, Bootstrap 3)
+5. PHP Functionalities for Create, Read, Update and Delete

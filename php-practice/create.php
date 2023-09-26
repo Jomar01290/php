@@ -15,7 +15,7 @@ if(isset($_POST["productname"]) && isset($_POST["productdescription"])
     VALUES ('".$name."', '".$description."','".$stocks."')";
 
     if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
+    // echo "New record created successfully";
     } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
     }
@@ -35,8 +35,8 @@ if(isset($_POST["productname"]) && isset($_POST["productdescription"])
 </head>
 <body>
     <div class="container">
-    <h1>Create</h1>
-    <a href="index.php">HOME</a>
+    <h1>Create</h1> <br><br>
+    
     
     <form method="POST" action="create.php">
         <label>Product Name</label><br>
@@ -49,6 +49,8 @@ if(isset($_POST["productname"]) && isset($_POST["productdescription"])
         <input type="number" name="productstocks"><br><br>
 
         <input type="submit" class="btn btn-primary" value="submit">
+        <a href="index.php" class="btn btn-danger">Back</a>
+
     </form>
   
     <?php
